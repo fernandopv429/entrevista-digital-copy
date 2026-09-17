@@ -1,0 +1,344 @@
+{
+  "name": "Entrevista",
+  "type": "object",
+  "properties": {
+    "titulo": {
+      "type": "string"
+    },
+    "RECL_NOME": {
+      "type": "string"
+    },
+    "RECL_NACIONALIDADE": {
+      "type": "string"
+    },
+    "RECL_ESTADOCIVIL": {
+      "type": "string"
+    },
+    "RECL_RG": {
+      "type": "string"
+    },
+    "RECL_CPF": {
+      "type": "string"
+    },
+    "RECL_PIS": {
+      "type": "string"
+    },
+    "RECL_CTPS": {
+      "type": "string"
+    },
+    "RECL_SERIE": {
+      "type": "string"
+    },
+    "RECL_NASC": {
+      "type": "string",
+      "format": "date"
+    },
+    "RECL_FILIACAO": {
+      "type": "string"
+    },
+    "RECL_ENDERECO": {
+      "type": "string"
+    },
+    "RECL_CEP": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "FUNCAO": {
+      "type": "string"
+    },
+    "escala": {
+      "type": "string"
+    },
+    "JORNADA_HORARIO": {
+      "type": "string"
+    },
+    "RECL1_NOME": {
+      "type": "string"
+    },
+    "RECL1_CNPJ": {
+      "type": "string"
+    },
+    "RECL1_LOGRADOURO": {
+      "type": "string"
+    },
+    "RECL1_ENDCOMPL": {
+      "type": "string"
+    },
+    "RECL1_CEP": {
+      "type": "string"
+    },
+    "RECL1_TEMPO_LABORADO": {
+      "type": "string"
+    },
+    "RECL1_ESCALA_HORARIO": {
+      "type": "string"
+    },
+    "RECL2_NOME": {
+      "type": "string"
+    },
+    "RECL2_CNPJ": {
+      "type": "string"
+    },
+    "RECL2_LOGRADOURO": {
+      "type": "string"
+    },
+    "RECL2_ENDCOMPL": {
+      "type": "string"
+    },
+    "RECL2_CEP": {
+      "type": "string"
+    },
+    "RECL2_TEMPO_LABORADO": {
+      "type": "string"
+    },
+    "RECL2_ESCALA_HORARIO": {
+      "type": "string"
+    },
+    "RECL3_NOME": {
+      "type": "string"
+    },
+    "RECL3_CNPJ": {
+      "type": "string"
+    },
+    "RECL3_LOGRADOURO": {
+      "type": "string"
+    },
+    "RECL3_ENDCOMPL": {
+      "type": "string"
+    },
+    "RECL3_CEP": {
+      "type": "string"
+    },
+    "RECL3_TEMPO_LABORADO": {
+      "type": "string"
+    },
+    "RECL3_ESCALA_HORARIO": {
+      "type": "string"
+    },
+    "RECL4_NOME": {
+      "type": "string"
+    },
+    "RECL4_CNPJ": {
+      "type": "string"
+    },
+    "RECL4_LOGRADOURO": {
+      "type": "string"
+    },
+    "RECL4_ENDCOMPL": {
+      "type": "string"
+    },
+    "RECL4_CEP": {
+      "type": "string"
+    },
+    "RECL4_TEMPO_LABORADO": {
+      "type": "string"
+    },
+    "RECL4_ESCALA_HORARIO": {
+      "type": "string"
+    },
+    "DATA_ADMISSAO": {
+      "type": "string",
+      "format": "date"
+    },
+    "DATA_RESCISAO": {
+      "type": "string",
+      "format": "date"
+    },
+    "ULTIMO_DIA_TRABALHADO": {
+      "type": "string",
+      "format": "date"
+    },
+    "SALARIO": {
+      "type": "string",
+      "description": "Sal\u00e1rio-base mensal, como texto em reais (ex: R$ 2.148,22). O gerador l\u00ea este campo em mapearWebhook (pick 'SALARIO'/'salario') e dele derivam aviso, 13\u00ba, f\u00e9rias, FGTS, multas 467/477, hora normal e dano moral. Sem ele a pe\u00e7a sai calculada sobre o piso presumido da CCT."
+    },
+    "tipo_dispensa": {
+      "type": "string"
+    },
+    "RESPONSAVEL_HIERARQUICO": {
+      "type": "string"
+    },
+    "vale_refeicao": {
+      "type": "boolean"
+    },
+    "vale_alimentacao": {
+      "type": "boolean"
+    },
+    "vale_transporte": {
+      "type": "boolean"
+    },
+    "VALOR_VALE_REFEICAO": {
+      "type": "string"
+    },
+    "VALOR_AUX_ALIMENTACAO": {
+      "type": "string",
+      "description": "Valor di\u00e1rio do aux\u00edlio-alimenta\u00e7\u00e3o em reais (ex: R$ 23,30). Sem ele o gerador usa o padr\u00e3o da CCT e, quando a conven\u00e7\u00e3o n\u00e3o traz o n\u00famero, a pe\u00e7a sa\u00eda com [A PREENCHER]."
+    },
+    "VAL_CONDUCAO": {
+      "type": "string",
+      "description": "Valor di\u00e1rio da condu\u00e7\u00e3o / vale-transporte em reais (ex: R$ 10,00)."
+    },
+    "tem_adic_noturno": {
+      "type": "boolean",
+      "description": "Trabalhava no intervalo das 22h \u00e0s 5h (adicional noturno, art. 73 da CLT)."
+    },
+    "assiduidade": {
+      "type": "boolean",
+      "description": "Havia pr\u00eamio/bonifica\u00e7\u00e3o de assiduidade prometido."
+    },
+    "assiduidade_prometido": {
+      "type": "string",
+      "description": "Valor mensal prometido a t\u00edtulo de pr\u00eamio de assiduidade (ex: R$ 300,00)."
+    },
+    "assiduidade_pago": {
+      "type": "string",
+      "description": "Valor mensal efetivamente pago. A verba pedida \u00e9 a DIFEREN\u00c7A entre o prometido e o pago (art. 457, \u00a71\u00ba, CLT)."
+    },
+    "finais_semana": {
+      "type": "boolean"
+    },
+    "ferias": {
+      "type": "boolean"
+    },
+    "ferias_quantidade": {
+      "type": "string"
+    },
+    "folgas_trabalhadas": {
+      "type": "boolean"
+    },
+    "FT_QTD_MEDIA": {
+      "type": "string"
+    },
+    "VAL_FT": {
+      "type": "string"
+    },
+    "ft_pagamento": {
+      "type": "string"
+    },
+    "ft_comprovante": {
+      "type": "boolean"
+    },
+    "folgas_conciliava": {
+      "type": "boolean"
+    },
+    "folgas_periodo_conciliou": {
+      "type": "string"
+    },
+    "SALARIOS_ABERTO": {
+      "type": "string",
+      "description": "Quais meses de sal\u00e1rio permaneceram em aberto (ex.: 'outubro e novembro/2025')."
+    },
+    "SALARIOS_ABERTO_QTD": {
+      "type": "number",
+      "description": "Quantidade de meses de sal\u00e1rio em aberto."
+    },
+    "VALOR_POR_FORA": {
+      "type": "string",
+      "description": "Valor mensal recebido 'por fora' (\u00e0 parte do valor da folga trabalhada), em reais (ex.: R$ 500,00)."
+    },
+    "intervalo_suprimido": {
+      "type": "boolean"
+    },
+    "INTERVALO_USUFRUIDO": {
+      "type": "string"
+    },
+    "horas_extras": {
+      "type": "boolean"
+    },
+    "media_horas_extras": {
+      "type": "string"
+    },
+    "periodo_antecedente": {
+      "type": "string"
+    },
+    "periodo_sucedente": {
+      "type": "string"
+    },
+    "controle_ponto": {
+      "type": "boolean"
+    },
+    "formato_ponto": {
+      "type": "string"
+    },
+    "acumulo_funcao": {
+      "type": "boolean"
+    },
+    "funcoes_acumuladas": {
+      "type": "string"
+    },
+    "armamento_colete": {
+      "type": "boolean"
+    },
+    "gratificacao": {
+      "type": "boolean"
+    },
+    "gratificacao_qual": {
+      "type": "string"
+    },
+    "holerites": {
+      "type": "boolean"
+    },
+    "rescisao_contratual": {
+      "type": "boolean"
+    },
+    "espelho_ponto": {
+      "type": "boolean"
+    },
+    "desconto_indevido": {
+      "type": "boolean"
+    },
+    "desconto_qual": {
+      "type": "string"
+    },
+    "tem_doenca": {
+      "type": "boolean"
+    },
+    "tem_insalubridade": {
+      "type": "boolean"
+    },
+    "insalubridade_porcentagem": {
+      "type": "string"
+    },
+    "tem_periculosidade": {
+      "type": "boolean"
+    },
+    "periculosidade_porcentagem": {
+      "type": "string"
+    },
+    "produtos": {
+      "type": "string"
+    },
+    "epi": {
+      "type": "string"
+    },
+    "testemunha": {
+      "type": "string"
+    },
+    "fatos_narrados": {
+      "type": "string"
+    },
+    "aprovacao_status": {
+      "type": "string",
+      "enum": [
+        "pendente",
+        "aprovado",
+        "reprovado"
+      ],
+      "default": "pendente",
+      "description": "Status de aprova\u00e7\u00e3o da entrevista pelo sistema externo."
+    },
+    "aprovacao_motivo": {
+      "type": "string",
+      "description": "Motivo da reprova\u00e7\u00e3o \u2014 preenchido quando aprovacao_status = 'reprovado'."
+    }
+  },
+  "required": [
+    "RECL_NOME",
+    "RECL_CPF"
+  ]
+}
